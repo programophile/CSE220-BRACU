@@ -8,6 +8,6 @@ def remove_all(source, element):
 
 
 
-  print(new_arr)
+  return new_arr
 source=[10,2,30,2,50,2,2,0,0]
-remove_all(source,2)
+print(remove_all(source,2))
