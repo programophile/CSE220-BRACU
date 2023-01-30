@@ -1,4 +1,4 @@
-def shiftLeft(source,k) :
+def shift_left(source,k) :
     b = 1
     for i in range(k,len(source)) :
 
@@ -6,5 +6,5 @@ def shiftLeft(source,k) :
     for i in range(k) :
         source[len(source)-b]=0
         b+=1
-    print(source)
-shiftLeft([10,20,30,40,50,60],3)
+    return source
+print(shift_left([10,20,30,40,50,60],3))
